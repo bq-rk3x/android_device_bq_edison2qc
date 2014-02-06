@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/bq/edison2qc/config/media_profiles.xml:system/etc/media_profiles.xml
 
+# Rootdir blob
+PRODUCT_COPY_FILES += \
+    device/bq/edison2qc/rootdir/rk30xxnand.ko.3.0.36+:root/rk30xxnand.ko.3.0.36+
+
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=160
