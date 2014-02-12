@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/bq/edison2qc/rootdir/rk30xxnand.ko.3.0.36+:root/rk30xxnand.ko.3.0.36+
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.rk30board
+
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=160
