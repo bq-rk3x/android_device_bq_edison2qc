@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir blob
 PRODUCT_COPY_FILES += \
-    device/bq/edison2qc/rootdir/rk30xxnand.ko.3.0.36+:root/rk30xxnand.ko.3.0.36+
+    device/bq/edison2qc/rootdir/rk30xxnand_ko.ko.3.0.36+:root/rk30xxnand_ko.ko.3.0.36+
 
 # Sensors
 PRODUCT_PACKAGES += \
