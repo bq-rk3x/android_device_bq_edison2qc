@@ -32,6 +32,9 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 576716800
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14906032128
 BOARD_FLASH_BLOCK_SIZE := 16384
 
+# Recovery
+BOARD_CUSTOM_GRAPHICS := ../../../device/bq/edison2qc/recovery/graphics.c graphics_overlay.c
+
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/bq/edison2qc
 TARGET_KERNEL_CONFIG := cyanogenmod_edison2qc_defconfig
