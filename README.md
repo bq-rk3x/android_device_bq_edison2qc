@@ -13,6 +13,8 @@ Use the following local manifest:
     <manifest>
       <remove-project name="CyanogenMod/android_frameworks_av" />
       <project name="bq-rk3066/android_frameworks_av" path="frameworks/av" revision="cm-11.0" />
+      <remove-project name="CyanogenMod/android_frameworks_native" />
+      <project name="bq-rk3066/android_frameworks_native" path="frameworks/native" revision="cm-11.0" />
       <project name="bq-rk3066/android_device_bq_edison2qc" path="device/bq/edison2qc" revision="cm-11.0" />
       <project name="bq-rk3066/android_device_bq_rockchip-common" path="device/bq/rockchip-common" revision="cm-11.0" />
       <project name="bq-rk3066/android_kernel_bq_rk3188" path="kernel/bq/edison2qc" revision="cm-11.0" />
