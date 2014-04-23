@@ -15,3 +15,6 @@
 #
 
 add_lunch_combo full_edison2qc-userdebug
+
+# Run device patches on the tree
+sh device/bq/edison2qc/patches/apply.sh
