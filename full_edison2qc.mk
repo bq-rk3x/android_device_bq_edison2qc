@@ -33,8 +33,8 @@ $(call inherit-product, device/bq/rockchip-common/device-common.mk)
 $(call inherit-product, vendor/bq/rockchip-common/rockchip-vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := edison2qc
+PRODUCT_NAME := full_edison2qc
 PRODUCT_DEVICE := edison2qc
 PRODUCT_BRAND := bq
-PRODUCT_MODEL := bq Edison 2 Quad Core
-PRODUCT_MANUFACTURER := Rockchip
+PRODUCT_MANUFACTURER := bq
+PRODUCT_MODEL := Edison 2 Quad Core
