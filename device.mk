@@ -27,10 +27,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/bq/edison2qc/config/media_profiles.xml:system/etc/media_profiles.xml
 
-# Rootdir blob
-PRODUCT_COPY_FILES += \
-    device/bq/edison2qc/rootdir/rk30xxnand_ko.ko.3.0.36+:root/rk30xxnand_ko.ko.3.0.36+
-
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.rk30board
