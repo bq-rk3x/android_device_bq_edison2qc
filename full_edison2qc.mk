@@ -26,7 +26,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit the edison2qc definitions
 $(call inherit-product, device/bq/edison2qc/device.mk)
-$(call inherit-product, vendor/bq/edison2qc/edison2qc-vendor.mk)
 
 # Inherit the rockchip-common definitions
 $(call inherit-product, device/bq/rockchip-common/device-common.mk)

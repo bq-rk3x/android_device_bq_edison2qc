@@ -16,8 +16,6 @@
 
 -include device/bq/rockchip-common/BoardConfigCommon.mk
 
--include vendor/bq/edison2qc/BoardConfigVendor.mk
-
 TARGET_BOOTLOADER_BOARD_NAME := bq_Edison2_QuadCore
 
 TARGET_OTA_ASSERT_DEVICE := edison2qc,bq_Edison2_QuadCore
