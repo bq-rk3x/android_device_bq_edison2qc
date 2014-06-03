@@ -21,9 +21,7 @@ Use the following local manifest:
 
       <!-- CyanogenMod projects with additional changes -->
       <remove-project name="CyanogenMod/android_frameworks_av" />
-      <remove-project name="CyanogenMod/android_frameworks_native" />
       <project name="bq-rk3x/android_frameworks_av" path="frameworks/av" revision="cm-11.0" />
-      <project name="bq-rk3x/android_frameworks_native" path="frameworks/native" revision="cm-11.0" />
     </manifest>
 
 Sync and build:
