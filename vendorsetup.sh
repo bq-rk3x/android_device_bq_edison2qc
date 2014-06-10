@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_edison2qc-userdebug
+add_lunch_combo omni_edison2qc-userdebug

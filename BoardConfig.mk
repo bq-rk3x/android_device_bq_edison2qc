@@ -22,4 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := edison2qc,bq_Edison2_QuadCore
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/edison2qc/bluetooth
 
-TARGET_KERNEL_CONFIG := cyanogenmod_edison2qc_defconfig
+TARGET_KERNEL_CONFIG := omni_edison2qc_defconfig
+
+# TWRP specific build flags
+DEVICE_RESOLUTION := 1280x800
